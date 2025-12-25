@@ -19,7 +19,7 @@
 }
 
 body {
-  background: var(--background);
+  background: #fff;
   color: var(--text-dark);
   font-family: var(--font-montserrat);
 }
