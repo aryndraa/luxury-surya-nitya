@@ -12,7 +12,7 @@ export default function Button({ type, href, children }: ButtonProps) {
     return (
       <Link
         href={href}
-        className="bg-primary font-playfair-display px-4 py-2 text-base md:text-lg text-white  tracking-wider font-medium "
+        className="bg-primary hover:bg-primary/80 font-playfair-display px-4 py-2 text-base md:text-lg text-white  tracking-wider font-medium "
       >
         {children}
       </Link>
@@ -22,7 +22,7 @@ export default function Button({ type, href, children }: ButtonProps) {
   return (
     <button
       type={type !== "link" ? type : "button"}
-      className="bg-primary font-playfair-display px-4 py-2 text-base md:text-lg text-white  tracking-wider font-medium"
+      className="bg-primary hover:bg-primary/80 font-playfair-display px-4 py-2 text-base md:text-lg text-white  tracking-wider font-medium"
     >
       {children}
     </button>
