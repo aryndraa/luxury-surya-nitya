@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/partials/Header";
+import Footer from "./_components/partials/Footer";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
