@@ -1,6 +1,7 @@
-import AboutSection from "./_components/overview/AboutSection";
-import FacilitySection from "./_components/overview/FacilitySection";
-import HeroSection from "./_components/overview/HeroSection";
+import AboutSection from "./_components/overview/sections/AboutSection";
+import FacilitySection from "./_components/overview/sections/FacilitySection";
+import HeroSection from "./_components/overview/sections/HeroSection";
+import OfferSection from "./_components/overview/sections/OfferSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <FacilitySection />
+      <OfferSection />
     </>
   );
 }

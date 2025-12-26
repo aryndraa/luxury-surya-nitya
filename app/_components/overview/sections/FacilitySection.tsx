@@ -1,10 +1,10 @@
 import Image from "next/image";
-import FacilityDecor from "../../../public/assets/home/facility-decor.svg";
-import Facility1 from "../../../public/assets/home/facility-1.jpg";
-import Facility2 from "../../../public/assets/home/facility-2.jpg";
-import Facility3 from "../../../public/assets/home/facility-3.jpg";
-import FacilityBg from "../../../public/assets/home/facility-bg.jpg";
-import Button from "../Button";
+import FacilityDecor from "@/public/assets/home/facility-decor.svg";
+import Facility1 from "@/public/assets/home/facility-1.jpg";
+import Facility2 from "@/public/assets/home/facility-2.jpg";
+import Facility3 from "@/public/assets/home/facility-3.jpg";
+import FacilityBg from "@/public/assets/home/facility-bg.jpg";
+import Button from "../../Button";
 
 export default function FacilitySection() {
   return (
@@ -24,7 +24,7 @@ export default function FacilitySection() {
               <h1 className="font-playfair-display text-3xl md:text-5xl font-semibold mb-4 lg:mb-6">
                 Facilities Designed for <br /> Absolute Comfort
               </h1>
-              <p className="text-sm md:text-base mb-8 lg:mb-12 lg:w-[70%] ">
+              <p className="text-sm md:text-lg mb-8 lg:mb-12 lg:w-[75%] ">
                 Every space is thoughtfully crafted to enhance privacy,
                 relaxation, and a seamless connection with nature.
               </p>

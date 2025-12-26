@@ -1,8 +1,8 @@
 import Image from "next/image";
-import AboutImage from "../../../public/assets/home/about.jpg";
-import AboutRightDecor from "../../../public/assets/home/about-decoration-right.svg";
-import AboutLeftDecor from "../../../public/assets/home/about-decoration-left.svg";
-import Button from "../Button";
+import AboutImage from "@/public/assets/home/about.jpg";
+import AboutRightDecor from "@/public/assets/home/about-decoration-right.svg";
+import AboutLeftDecor from "@/public/assets/home/about-decoration-left.svg";
+import Button from "../../Button";
 
 export default function AboutSection() {
   return (
@@ -15,7 +15,7 @@ export default function AboutSection() {
           <Image src={AboutImage} alt="about-bg" className=" 2xl:w-[60vw]" />
         </div>
         <div className="flex flex-col lg:items-end lg:justify-end h-full relative z-1 ">
-          <div className="bg-foreground p-4 md:p-6 lg:p-8 mb-4 lg:w-[50%] shadow">
+          <div className="bg-foreground p-4 md:p-6 lg:p-8 mb-4 lg:w-[50%] ">
             <h1 className="font-playfair-display font-semibold text-3xl md:text-5xl mb-2 md:mb-4">
               Luxury Living in <br /> Harmony with Nature
             </h1>
