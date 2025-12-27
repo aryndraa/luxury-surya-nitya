@@ -4,7 +4,7 @@ import FooterLink from "../FooterLink";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-background">
       <div className="min-h-[35vh] lg:min-h-[50vh] cta-bg bg-center bg-cover bg-no-repeat bg-blend-multiply bg-text-dark/80 flex items-center justify-center">
         <div className="text-center flex flex-col items-center gap-6 md:gap-8 lg:gap-12">
           <strong className="font-playfair-display text-3xl md:text-6xl tracking-wider text-white">
@@ -16,7 +16,7 @@ export default function Footer() {
           </button>
         </div>
       </div>
-      <div className="bg-background 2xl:container mx-auto px-4 md:px-8 lg:px-12 py-8 md:py-12">
+      <div className=" 2xl:container mx-auto px-4 md:px-8 lg:px-12 py-8 md:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mb-8 pb-8 border-b border-primary">
           <div>
             <Image

@@ -1,5 +1,7 @@
-import React from "react";
+"use client";
+
 import { FaChevronDown } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
@@ -9,13 +11,23 @@ export default function HeroSection() {
     >
       <div className="flex justify-center items-center 2xl:container mx-auto px-4 md:px-8 lg:px-12 ">
         <div className="text-center text-text-light flex flex-col items-center ">
-          <h1 className="font-playfair-display text-6xl md:text-8xl mb-6   ">
+          <motion.h1
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="font-playfair-display text-6xl md:text-8xl mb-6"
+          >
             East Bali Tranquility
-          </h1>
-          <p className="font-light  md:font-normal  text-text-light/80 w-[80%] md:w-[70%] md:text-2xl italic">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            className="font-light  md:font-normal  text-text-light/80 w-[80%] md:w-[70%] md:text-2xl italic"
+          >
             A private luxury villa surrounded by nature, designed for complete
             serenit
-          </p>
+          </motion.p>
           <div className="absolute bottom-20">
             <FaChevronDown className="mx-auto  text-3xl text-text-light/50 animate-bounce" />
           </div>
