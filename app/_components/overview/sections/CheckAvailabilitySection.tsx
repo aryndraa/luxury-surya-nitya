@@ -14,7 +14,7 @@ type BookingForm = {
   reservationDate: string;
 };
 
-export default function CheckAvailability() {
+export default function CheckAvailabilitySection() {
   const [form, setForm] = useState<BookingForm>({
     name: "",
     phone: "",

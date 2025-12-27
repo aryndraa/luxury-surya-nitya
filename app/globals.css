@@ -31,3 +31,11 @@ body {
 .cta-bg {
   background-image: url("../public/assets/cta.jpg");
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
