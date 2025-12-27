@@ -1,5 +1,6 @@
 import CatchEye from "./_components/CatchEye";
 import AboutSection from "./_components/overview/sections/AboutSection";
+import CheckAvailability from "./_components/overview/sections/CheckAvailability";
 import FacilitySection from "./_components/overview/sections/FacilitySection";
 import GallerySection from "./_components/overview/sections/GallerySection";
 import HeroSection from "./_components/overview/sections/HeroSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <OfferSection />
       <CatchEye image={CatchEyeImage} />
       <GallerySection />
+      <CheckAvailability />
     </>
   );
 }

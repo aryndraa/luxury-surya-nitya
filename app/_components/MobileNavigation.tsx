@@ -44,7 +44,6 @@ export default function MobileNavigation({
             <NavLink href="/facilities" name="Facilities" onClick={closeMenu} />
             <NavLink href="/offers" name="Offers" onClick={closeMenu} />
           </div>
-          <div></div>
         </div>
       </div>
     </>

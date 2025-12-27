@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import MobileNavigation from "../MobileNavigation";
 import NavLink from "../NavLink";
+import Button from "../Button";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -59,9 +60,9 @@ export default function Header() {
           </div>
         </div>
         <div className="flex gap-4 items-center">
-          <button className="bg-primary font-playfair-display px-4 py-2 text-sm md:text-base font-semibold tracking-wider text-white">
+          <Button type="link" href="/">
             Contact Us
-          </button>
+          </Button>
           <MobileNavigation
             headerActive={isActive}
             setHeaderActive={setForceActive}
