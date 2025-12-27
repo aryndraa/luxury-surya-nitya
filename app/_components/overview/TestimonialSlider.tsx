@@ -14,7 +14,7 @@ export default function TestimonialSlider() {
         modules={[Autoplay]}
         loop={true}
         slidesPerView={1.3}
-        spaceBetween={12}
+        spaceBetween={16}
         centeredSlides={true}
         autoplay={{
           delay: 1500,

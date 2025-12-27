@@ -7,6 +7,7 @@ import HeroSection from "./_components/overview/sections/HeroSection";
 import OfferSection from "./_components/overview/sections/OfferSection";
 import CatchEyeImage from "@/public/assets/home/catch-eye.jpg";
 import TestimonialSection from "./_components/overview/sections/TestimonialSection";
+import FaqSection from "./_components/overview/sections/FaqSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <GallerySection />
       <CheckAvailabilitySection />
       <TestimonialSection />
+      <FaqSection />
     </>
   );
 }
