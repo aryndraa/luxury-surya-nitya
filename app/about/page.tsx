@@ -1,6 +1,7 @@
 import Image from "next/image";
 import DescriptionSection from "../_components/about/section/DescriptionSection";
 import HeroBg from "@/public/assets/about/hero.jpg";
+import HistorySection from "../_components/about/section/HistorySection";
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         </div>
       </section>
       <DescriptionSection />
+      <HistorySection />
     </>
   );
 }

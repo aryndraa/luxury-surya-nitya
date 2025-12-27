@@ -6,14 +6,14 @@ export default function DescriptionSection() {
   return (
     <section id="description" className="">
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-6  mb-10 lg:mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-6  mb-8 lg:mb-16">
           <div className="lg:col-span-4">
             <h1 className="text-6xl md:text-8xl font-medium mb-4  ">58+</h1>
             <p className="font-playfair-display font-semibold text-lg md:text-xl">
               Experienced To Be The Best
             </p>
           </div>
-          <p className="text-sm md:text-base lg:text-lg col-span-8 pb-10 lg:pb-16 border-b border-primary">
+          <p className="text-sm md:text-base lg:text-lg col-span-8 pb-8 lg:pb-16 border-b border-primary">
             <span className="text-primary font-playfair-display text-lg md:text-2xl lg:text-3xl font-semibold">
               Luxury Surya Nitya
             </span>{" "}
