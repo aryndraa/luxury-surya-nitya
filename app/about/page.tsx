@@ -2,6 +2,9 @@ import Image from "next/image";
 import DescriptionSection from "../_components/about/section/DescriptionSection";
 import HeroBg from "@/public/assets/about/hero.jpg";
 import HistorySection from "../_components/about/section/HistorySection";
+import ServiceSection from "../_components/about/section/ServiceSection";
+import CatchEyeImage from "@/public/assets/about/catch-eye.jpg";
+import CatchEye from "../_components/CatchEye";
 
 export default function Page() {
   return (
@@ -20,6 +23,8 @@ export default function Page() {
       </section>
       <DescriptionSection />
       <HistorySection />
+      <ServiceSection />
+      <CatchEye image={CatchEyeImage} />
     </>
   );
 }
