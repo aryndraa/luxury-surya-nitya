@@ -1,27 +1,16 @@
-import Image from "next/image";
-import DescriptionSection from "../_components/about/section/DescriptionSection";
+import DescriptionSection from "../_components/about/sections/DescriptionSection";
 import HeroBg from "@/public/assets/about/hero.jpg";
-import HistorySection from "../_components/about/section/HistorySection";
-import ServiceSection from "../_components/about/section/ServiceSection";
+import HistorySection from "../_components/about/sections/HistorySection";
+import ServiceSection from "../_components/about/sections/ServiceSection";
 import CatchEyeImage from "@/public/assets/about/catch-eye.jpg";
 import CatchEye from "../_components/CatchEye";
-import SocialMediaSection from "../_components/about/section/SocialMediaSection";
+import SocialMediaSection from "../_components/about/sections/SocialMediaSection";
+import TitleSection from "../_components/TitleSection";
 
 export default function Page() {
   return (
     <>
-      <section id="hero" className=" bg-background ">
-        <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 pt-12 md:pt-18 lg:pt-24 flex justify-between items-end min-h-[30vh]">
-          <h1 className="font-playfair-display text-5xl md:text-7xl font-semibold pb-8 md:pb-12 lg:pb-16">
-            About Us
-          </h1>
-          <Image
-            src={HeroBg}
-            alt="hero"
-            className=" object-cover min-h-[40vh] w-[60%] hidden lg:block "
-          />
-        </div>
-      </section>
+      <TitleSection image={HeroBg} title="About" />
       <DescriptionSection />
       <HistorySection />
       <ServiceSection />
