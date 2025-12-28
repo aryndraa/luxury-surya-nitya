@@ -3,7 +3,10 @@ import DescriptionImage from "@/public/assets/facilities/description-placeholder
 
 export default function DescriptionSection() {
   return (
-    <section className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 grid lg:grid-cols-12 gap-8 ">
+    <section
+      id="dwscription"
+      className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 grid lg:grid-cols-12 gap-8 "
+    >
       <div className="lg:col-span-5">
         <h1 className="font-playfair-display font-semibold text-3xl md:text-5xl mb-2 md:mb-4 leading-[1.2]">
           Designed for Comfort and Tranquility
