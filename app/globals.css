@@ -18,6 +18,10 @@
   --font-playfair-display: var(--font-playfair-display);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fff;
   color: var(--text-dark);

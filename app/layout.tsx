@@ -3,6 +3,7 @@ import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/partials/Header";
 import Footer from "./_components/partials/Footer";
+import BookinhFloating from "./_components/BookinhFloating";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
+        <BookinhFloating />
         <Footer />
       </body>
     </html>

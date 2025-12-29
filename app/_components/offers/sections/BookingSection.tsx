@@ -1,49 +1,29 @@
 "use client";
-import React, { useState } from "react";
-import CheckAvailabilityBg from "@/public/assets/home/check-availability-bg.jpg";
 import AboutRightDecor from "@/public/assets/home/faq-flower-r.svg";
 import AboutLeftDecor from "@/public/assets/home/faq-flower-l.svg";
 import Image from "next/image";
 import HeadingLine from "../../HeadingLine";
-
-type BookingForm = {
-  name: string;
-  phone: string;
-  package: string;
-  guest: number;
-  reservationDate: string;
-};
+import { useBooking } from "@/lib/store/booking";
 
 export default function BookingSection() {
-  const [form, setForm] = useState<BookingForm>({
-    name: "",
-    phone: "",
-    package: "",
-    guest: 1,
-    reservationDate: "",
-  });
+  const { data, setData, submitBooking } = useBooking();
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
-    setForm((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+    setData({
+      [name]: name === "guest" ? Number(value) : value,
+    });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(form);
-
-    // nanti bisa:
-    // - kirim ke API
-    // - redirect ke WhatsApp
+    submitBooking();
   };
 
   return (
-    <section id="BookingForm" className="relative">
+    <section id="booking" className="relative">
       <div className=" absolute  bottom-0 top-0 h-full w-full  overflow-hidden  right-0 bg-white ">
         <div className="relative h-full">
           <Image
@@ -86,7 +66,7 @@ export default function BookingSection() {
             <input
               type="text"
               name="name"
-              value={form.name}
+              value={data.name}
               onChange={handleChange}
               required
               className="border-b border-text-light/40 focus:border-text-light pb-4  text-text-light placeholder:text-text-light/70 bg-transparent focus:outline-none transition ease-in-out"
@@ -96,7 +76,7 @@ export default function BookingSection() {
             <input
               type="tel"
               name="phone"
-              value={form.phone}
+              value={data.phone}
               onChange={handleChange}
               required
               className="border-b border-text-light/40 focus:border-text-light pb-4  text-text-light placeholder:text-text-light/70 bg-transparent focus:outline-none transition ease-in-out"
@@ -105,12 +85,12 @@ export default function BookingSection() {
 
             <select
               name="package"
-              value={form.package}
+              value={data.package}
               onChange={handleChange}
               required
               className={`border-b pb-4 bg-transparent focus:outline-none transition ease-in-out
                 ${
-                  form.package
+                  data.package
                     ? "text-text-light border-text-light"
                     : "text-text-light/70 border-text-light/40"
                 }
@@ -136,7 +116,7 @@ export default function BookingSection() {
               <input
                 type="number"
                 name="guest"
-                value={form.guest}
+                value={data.guest}
                 min={1}
                 onChange={handleChange}
                 required
@@ -151,7 +131,7 @@ export default function BookingSection() {
               <input
                 type="date"
                 name="reservationDate"
-                value={form.reservationDate}
+                value={data.reservationDate}
                 onChange={handleChange}
                 required
                 className="w-full text-text-light bg-transparent placeholder:text-text-light/70 focus:outline-none"
