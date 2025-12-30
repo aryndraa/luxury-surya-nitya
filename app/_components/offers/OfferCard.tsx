@@ -36,7 +36,7 @@ export default function OfferCard({
   return (
     <>
       <div
-        className={`flex flex-col md:flex-row relative w-full ${
+        className={`flex flex-col md:flex-row relative w-full  ${
           align === "right" ? "justify-start" : "justify-end"
         }`}
       >
@@ -46,7 +46,7 @@ export default function OfferCard({
           className="w-full lg:w-[50vw] lg:h-[70vh] object-cover "
         />
         <div
-          className={`p-4 md:p-6 lg:p-8 bg-foreground flex flex-col gap-8 lg:gap-12 lg:absolute top-1/2 lg:-translate-y-1/2 lg:w-[60%] ${
+          className={`p-4 md:p-6 lg:p-8 bg-foreground shadow-md flex flex-col gap-8 lg:gap-12 lg:absolute top-1/2 lg:-translate-y-1/2 lg:w-[60%] ${
             align === "right" ? " right-0" : "left-0"
           }`}
         >

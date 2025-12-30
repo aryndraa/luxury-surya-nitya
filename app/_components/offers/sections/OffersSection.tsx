@@ -13,7 +13,7 @@ export default function OffersSection() {
   return (
     <section id="offers" className="bg-background">
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-24 lg:py-48  relative">
-        <div className=" flex flex-col items-center gap-8 md:gap-12 lg:gap-24 relative z-1">
+        <div className=" flex flex-col items-center gap-8 md:gap-12 lg:gap-24 ">
           <OfferCard
             image={Package2}
             title="Karangasem Family Escape"
@@ -63,22 +63,22 @@ export default function OffersSection() {
         <Image
           src={OfferDecorBl}
           alt="offer-decor-bl"
-          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-96 absolute bottom-0 left-0"
+          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-80 absolute bottom-0 left-0"
         />
         <Image
           src={OfferDecorBr}
           alt="offer-decor-bl"
-          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-96 absolute  bottom-0 right-0"
+          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-80 absolute  bottom-0 right-0"
         />
         <Image
           src={OfferDecorTl}
           alt="offer-decor-bl"
-          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-96 absolute top-0 left-0"
+          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-80 absolute top-0 left-0"
         />
         <Image
           src={OfferDecorTr}
           alt="offer-decor-bl"
-          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-96 absolute top-0 right-0"
+          className="saturate-0 opacity-40 w-40 md:w-64 lg:w-80 absolute top-0 right-0"
         />
       </div>
     </section>
