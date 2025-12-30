@@ -106,7 +106,7 @@ export default function ContactFormSection() {
               value={form.subject}
               onChange={handleChange}
               required
-              className="border-b h-32 max-h-32 border-text-dark/40 focus:border-text-dark pb-4  text-text-dark placeholder:text-text-dark/70 font-medium bg-transparent focus:outline-none transition ease-in-out  md:col-span-2"
+              className="border-b h-32 max-h-32 lg:max-h-24 border-text-dark/40 focus:border-text-dark pb-4  text-text-dark placeholder:text-text-dark/70 font-medium bg-transparent focus:outline-none transition ease-in-out  md:col-span-2"
               placeholder="Subject"
             />
 
