@@ -3,6 +3,7 @@ import TitleSection from "../_components/TitleSection";
 import HeroBg from "@/public/assets/contact/hero.jpg";
 import ContactInformationSextion from "../_components/contact/section/ContactInformationSextion";
 import ContactFormSection from "../_components/contact/section/ContactFormSection";
+import MapSection from "../_components/contact/section/MapSection";
 
 export default function Page() {
   return (
@@ -10,6 +11,7 @@ export default function Page() {
       <TitleSection image={HeroBg} title="Contact us" />
       <ContactInformationSextion />
       <ContactFormSection />
+      <MapSection />
     </>
   );
 }
