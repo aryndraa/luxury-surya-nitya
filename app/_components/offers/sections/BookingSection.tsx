@@ -140,7 +140,7 @@ export default function BookingSection() {
 
             <button
               type="submit"
-              className="md:col-span-2 mt-4 bg-primary text-white py-3 font-semibold rounded hover:opacity-90 transition"
+              className="md:col-span-2 mt-4 bg-primary text-white py-3 font-semibold font-playfair-display text-lg rounded hover:opacity-90 transition"
             >
               Check Availability
             </button>
