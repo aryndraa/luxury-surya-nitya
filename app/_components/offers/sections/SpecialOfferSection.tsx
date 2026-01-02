@@ -17,7 +17,7 @@ export default function SpecialOfferSection() {
         <motion.div
           initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-180px" }}
+          viewport={{ once: true, margin: "20px" }}
           transition={{
             duration: 0.8,
             ease: "easeOut",
@@ -45,7 +45,7 @@ export default function SpecialOfferSection() {
         <motion.h1
           initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "20px" }}
+          viewport={{ once: true, margin: "80px" }}
           transition={{
             duration: 0.8,
             ease: "easeOut",
