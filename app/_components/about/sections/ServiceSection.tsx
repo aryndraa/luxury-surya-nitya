@@ -68,7 +68,7 @@ export default function ServiceSection() {
               duration: 0.8,
               ease: "easeOut",
             }}
-            className="row-span-2 "
+            className="row-span-2 hidden lg:block "
           >
             <Image
               src={ServiceImage}
