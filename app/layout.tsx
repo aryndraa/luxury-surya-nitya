@@ -31,12 +31,12 @@ export default function RootLayout({
       <body
         className={`${playfairDisplay.variable} ${montserrat.variable} antialiased font-monsterrat`}
       >
+        <Header />
         <LocomotiveProvider>
-          <Header />
           <main>{children}</main>
-          <BookinhFloating />
-          <Footer />
         </LocomotiveProvider>
+        <BookinhFloating />
+        <Footer />
       </body>
     </html>
   );
