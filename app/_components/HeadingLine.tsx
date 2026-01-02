@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import { FaDiamond } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 export default function HeadingLine({
   children,
@@ -8,15 +10,27 @@ export default function HeadingLine({
 }) {
   return (
     <div className="flex items-center gap-12 w-full justify-center  ">
-      <div className="w-full hidden lg:flex items-center text-primary ">
+      <motion.div
+        className="w-full hidden lg:flex items-center text-primary "
+        initial={{ opacity: 0, x: -24 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, margin: "-180px" }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 1 }}
+      >
         <hr className="w-full" />
         <FaDiamond />
-      </div>
+      </motion.div>
       {children}
-      <div className="w-full hidden lg:flex items-center text-primary ">
+      <motion.div
+        className="w-full hidden lg:flex items-center text-primary "
+        initial={{ opacity: 0, x: 24 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, margin: "-180px" }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
+      >
         <FaDiamond />
         <hr className="w-full" />
-      </div>
+      </motion.div>
     </div>
   );
 }

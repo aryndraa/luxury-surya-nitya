@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="flex justify-center items-center 2xl:container mx-auto px-4 md:px-8 lg:px-12 ">
         <div className="text-center text-text-light flex flex-col items-center ">
           <motion.h1
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ opacity: 0, y: 48 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="font-playfair-display text-6xl md:text-8xl mb-6"
@@ -20,7 +20,7 @@ export default function HeroSection() {
             East Bali Tranquility
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ opacity: 0, y: 48 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="font-light  md:font-normal  text-text-light/80 w-[80%] md:w-[70%] md:text-2xl italic"
@@ -28,9 +28,14 @@ export default function HeroSection() {
             A private luxury villa surrounded by nature, designed for complete
             serenit
           </motion.p>
-          <div className="absolute bottom-20">
+          <motion.div
+            initial={{ opacity: 0, y: 48 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            className="absolute bottom-20"
+          >
             <FaChevronDown className="mx-auto  text-3xl text-text-light/50 animate-bounce" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -1,8 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import AboutImage from "@/public/assets/home/about.jpg";
 import AboutRightDecor from "@/public/assets/home/about-decoration-right.svg";
 import AboutLeftDecor from "@/public/assets/home/about-decoration-left.svg";
 import Button from "../../Button";
+import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
@@ -12,10 +15,22 @@ export default function AboutSection() {
     >
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 relative">
         <div className="relative z-1 h-full">
-          <div className="mb-4 lg:absolute ">
+          <motion.div
+            className="mb-4 lg:absolute "
+            initial={{ opacity: 0, y: 48 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-180px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
             <Image src={AboutImage} alt="about-bg" className=" 2xl:w-[60vw]" />
-          </div>
-          <div className="flex flex-col lg:items-end lg:justify-end h-full relative z-1 ">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 48 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-180px" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+            className="flex flex-col lg:items-end lg:justify-end h-full relative z-1 "
+          >
             <div className="bg-foreground p-4 md:p-6 lg:p-8 mb-4 lg:w-[50%] ">
               <h1 className="font-playfair-display font-semibold text-3xl md:text-5xl mb-2 md:mb-4">
                 Luxury Living in <br /> Harmony with Nature
@@ -30,12 +45,13 @@ export default function AboutSection() {
                 in Balinese culture and the refreshing tranquility of nature.
               </p>
             </div>
+
             <Button type="link" href="/about">
-              <span className="flex justify-center lg:w-fit">
+              <span className="flex justify-center  lg:w-fit">
                 More About Surya Nitya
               </span>
             </Button>
-          </div>
+          </motion.div>
         </div>
         <Image
           src={AboutRightDecor}

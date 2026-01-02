@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./_components/partials/Header";
 import Footer from "./_components/partials/Footer";
 import BookinhFloating from "./_components/BookinhFloating";
+import LocomotiveProvider from "./_components/LocomotiveProvider";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
@@ -30,10 +31,12 @@ export default function RootLayout({
       <body
         className={`${playfairDisplay.variable} ${montserrat.variable} antialiased font-monsterrat`}
       >
-        <Header />
-        <main>{children}</main>
-        <BookinhFloating />
-        <Footer />
+        <LocomotiveProvider>
+          <Header />
+          <main>{children}</main>
+          <BookinhFloating />
+          <Footer />
+        </LocomotiveProvider>
       </body>
     </html>
   );

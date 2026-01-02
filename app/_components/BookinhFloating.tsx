@@ -30,7 +30,7 @@ export default function BookingFloating() {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 40, scale: 0.9 }}
           transition={{
-            duration: 0.4,
+            duration: 0.8,
             ease: "easeOut",
           }}
           className="fixed bottom-8 right-4 z-50"
