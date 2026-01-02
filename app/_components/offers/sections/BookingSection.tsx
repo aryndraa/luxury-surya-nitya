@@ -4,6 +4,7 @@ import AboutLeftDecor from "@/public/assets/home/faq-flower-l.svg";
 import Image from "next/image";
 import HeadingLine from "../../HeadingLine";
 import { useBooking } from "@/lib/store/booking";
+import { motion } from "framer-motion";
 
 export default function BookingSection() {
   const { data, setData, submitBooking } = useBooking();
@@ -43,18 +44,37 @@ export default function BookingSection() {
         <div className="mb-8 md:mb-12">
           <HeadingLine>
             <div className="flex flex-col items-center text-center">
-              <h1 className=" text-center text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6 lg:text-nowrap">
+              <motion.h1
+                initial={{ opacity: 0, y: 48 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                }}
+                className=" text-center text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6 lg:text-nowrap"
+              >
                 Book Your Private Escape
-              </h1>
-              <p className="text-sm md:text-base font-medium lg:font-normal">
+              </motion.h1>
+              <motion.p
+                initial={{ opacity: 0, y: 48 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-120px" }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                className="text-sm md:text-base font-medium lg:font-normal"
+              >
                 Reserve your stay at our exclusive villa and experience privacy,
                 comfort, and timeless serenity in Karangasem.
-              </p>
+              </motion.p>
             </div>
           </HeadingLine>
         </div>
 
-        <form
+        <motion.form
+          initial={{ opacity: 0, y: 48 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-120px" }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           onSubmit={handleSubmit}
           className="bg-text-dark shadow-lg p-6 md:p-8 w-full lg:w-[60%] "
         >
@@ -145,7 +165,7 @@ export default function BookingSection() {
               Check Availability
             </button>
           </div>
-        </form>
+        </motion.form>
       </div>
     </section>
   );

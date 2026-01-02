@@ -28,6 +28,7 @@ export default function HeroSection() {
             transition={{
               delay: 0.2,
               ease: "easeOut",
+              duration: 0.8,
             }}
             className="font-light  md:font-normal  text-text-light/80 w-[80%] md:w-[70%] md:text-2xl italic"
           >
@@ -38,8 +39,9 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 48 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
-              delay: 0.2,
+              delay: 0.4,
               ease: "easeOut",
+              duration: 0.8,
             }}
             className="absolute bottom-20"
           >

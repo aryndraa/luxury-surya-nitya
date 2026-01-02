@@ -1,8 +1,11 @@
+"use client";
+
 import React from "react";
 import Decor from "@/public/assets/home/facility-decor.svg";
 import Package1 from "@/public/assets/offers/package-1.jpg";
 import Image from "next/image";
 import OfferCard from "../OfferCard";
+import { motion } from "framer-motion";
 
 export default function SpecialOfferSection() {
   return (
@@ -11,19 +14,58 @@ export default function SpecialOfferSection() {
       className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 flex flex-col items-center"
     >
       <div className="text-center flex flex-col items-center mb-6 md:mb-12 ">
-        <Image
-          src={Decor}
-          alt="facility"
-          className="saturate-0 opacity-40 mb-3 lg:mb-6 w-64 lg:w-96"
-        />
-        <h2 className="text-primary font-playfair-display font-semibold text-lg md:text-2xl mb-2 md:mb-5">
+        <motion.div
+          initial={{ opacity: 0, y: 48 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-180px" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
+        >
+          <Image
+            src={Decor}
+            alt="facility"
+            className="saturate-0 opacity-40 mb-3 lg:mb-6 w-64 lg:w-96"
+          />
+        </motion.div>
+        <motion.h2
+          initial={{ opacity: 0, y: 48 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+            delay: 0.2,
+          }}
+          className="text-primary font-playfair-display font-semibold text-lg md:text-2xl mb-2 md:mb-5"
+        >
           Privacy, Luxury, and Serenity Await You
-        </h2>
-        <h1 className="font-playfair-display text-3xl md:text-5xl font-semibold mb-4 lg:mb-6">
+        </motion.h2>
+        <motion.h1
+          initial={{ opacity: 0, y: 48 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "20px" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+            delay: 0.2,
+          }}
+          className="font-playfair-display text-3xl md:text-5xl font-semibold mb-4 lg:mb-6"
+        >
           Our Exclusive Villa Packages
-        </h1>
+        </motion.h1>
       </div>
-      <div className="w-full">
+      <motion.div
+        initial={{ opacity: 0, y: 48 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{
+          duration: 0.8,
+          ease: "easeOut",
+        }}
+        className="w-full"
+      >
         <OfferCard
           image={Package1}
           title="Romantic Escape Package"
@@ -37,7 +79,7 @@ export default function SpecialOfferSection() {
             "Assistance with recommended catering or private chef vendors for a candlelight dinner (Villa does not provide cooking service but will assist with coordination)",
           ]}
         />
-      </div>
+      </motion.div>
     </section>
   );
 }
