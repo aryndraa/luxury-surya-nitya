@@ -5,6 +5,7 @@ import { useState } from "react";
 import CheckAvailabilityBg from "@/public/assets/home/check-availability-bg.jpg";
 import AboutRightDecor from "@/public/assets/home/about-decoration-right.svg";
 import AboutLeftDecor from "@/public/assets/home/about-decoration-left.svg";
+import { motion } from "framer-motion";
 
 type BookingForm = {
   name: string;
@@ -65,9 +66,13 @@ export default function CheckAvailabilitySection() {
       </div>
 
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 relative z-1 flex justify-end ">
-        <form
+        <motion.form
           onSubmit={handleSubmit}
           className="bg-text-dark shadow-lg p-6 md:p-8 w-full lg:w-[60%] "
+          initial={{ opacity: 0, y: 48 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-120px" }}
+          transition={{ duration: 0.8 }}
         >
           <h1 className="md:col-span-2 text-3xl md:text-5xl font-playfair-display text-text-light font-semibold mb-6 md:mb-12">
             Check Availability
@@ -156,7 +161,7 @@ export default function CheckAvailabilitySection() {
               Check Availability
             </button>
           </div>
-        </form>
+        </motion.form>
       </div>
     </section>
   );

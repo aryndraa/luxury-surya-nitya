@@ -2,14 +2,19 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-
+import { motion } from "framer-motion";
 import "swiper/css";
 
 import TestimonialCard from "./TestimonialCard";
 
 export default function TestimonialSlider() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, y: 48 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-120px" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <Swiper
         modules={[Autoplay]}
         loop={true}
@@ -53,6 +58,6 @@ export default function TestimonialSlider() {
           <TestimonialCard />
         </SwiperSlide>
       </Swiper>
-    </div>
+    </motion.div>
   );
 }

@@ -27,8 +27,8 @@ export default function AboutSection() {
           <motion.div
             initial={{ opacity: 0, x: 48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-180px" }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+            viewport={{ once: true, margin: "-120px" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="flex flex-col lg:items-end lg:justify-end h-full relative z-1 "
           >
             <div className="bg-foreground p-4 md:p-6 lg:p-8 mb-4 lg:w-[50%] ">

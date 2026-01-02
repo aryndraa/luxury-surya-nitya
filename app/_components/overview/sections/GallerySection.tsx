@@ -44,7 +44,7 @@ export default function GallerySection() {
             className="w-full flex items-center text-primary "
             initial={{ opacity: 0, x: -48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-120px" }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <hr className="w-full" />
@@ -53,7 +53,7 @@ export default function GallerySection() {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-120px" }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="w-12 lg:w-18"
           >
@@ -66,7 +66,7 @@ export default function GallerySection() {
           <motion.div
             initial={{ opacity: 0, x: 48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-120px" }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="w-full flex items-center text-primary "
           >
@@ -76,12 +76,78 @@ export default function GallerySection() {
         </div>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-8">
-        <Image src={gallery1} alt="gallery-1" className="w-full object-cover" />
-        <Image src={gallery2} alt="gallery-2" className="w-full object-cover" />
-        <Image src={gallery3} alt="gallery-3" className="w-full object-cover" />
-        <Image src={gallery4} alt="gallery-4" className="w-full object-cover" />
-        <Image src={gallery5} alt="gallery-5" className="w-full object-cover" />
-        <Image src={gallery6} alt="gallery-6" className="w-full object-cover" />
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Image
+            src={gallery1}
+            alt="gallery-1"
+            className="w-full object-cover"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Image
+            src={gallery2}
+            alt="gallery-2"
+            className="w-full object-cover"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Image
+            src={gallery3}
+            alt="gallery-3"
+            className="w-full object-cover"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Image
+            src={gallery4}
+            alt="gallery-4"
+            className="w-full object-cover"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Image
+            src={gallery5}
+            alt="gallery-5"
+            className="w-full object-cover"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Image
+            src={gallery6}
+            alt="gallery-6"
+            className="w-full object-cover"
+          />
+        </motion.div>
       </div>
     </section>
   );

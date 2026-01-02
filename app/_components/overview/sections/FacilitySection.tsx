@@ -59,7 +59,7 @@ export default function FacilitySection() {
               >
                 <Button type="link" href="/facilities">
                   <span className="flex justify-center lg:w-fit">
-                    More About Surya Nitya
+                    View Luxury Facility
                   </span>
                 </Button>
               </motion.div>
@@ -70,7 +70,7 @@ export default function FacilitySection() {
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-120px" }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
               <Image src={Facility1} alt="facility1" className="w-full" />
             </motion.div>
@@ -86,7 +86,7 @@ export default function FacilitySection() {
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-120px" }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
             >
               <Image src={Facility3} alt="facility3" className="w-full" />
             </motion.div>
@@ -97,8 +97,8 @@ export default function FacilitySection() {
       <motion.span
         initial={{ opacity: 0, y: 48 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-180px" }}
-        transition={{ duration: 0.8, delay: 0.8 }}
+        viewport={{ once: true, margin: "-200px" }}
+        transition={{ duration: 0.8 }}
         className="lg:hidden"
       >
         <Image

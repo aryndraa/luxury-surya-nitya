@@ -11,7 +11,7 @@ export default function LocomotiveProvider({
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    let scroll: any;
+    let scroll;
 
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;

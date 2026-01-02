@@ -5,6 +5,7 @@ import { useState } from "react";
 import { IoAdd, IoRemove } from "react-icons/io5";
 import FaqFlowerL from "@/public/assets/home/faq-flower-l.svg";
 import FaqFlowerR from "@/public/assets/home/faq-flower-r.svg";
+import { motion } from "framer-motion";
 
 export default function FaqSection() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -61,18 +62,42 @@ export default function FaqSection() {
 
       <div className="relative z-1">
         <div className="flex flex-col items-center text-center mb-8 lg:mb-16">
-          <h2 className="text-primary font-playfair-display font-semibold mb-2 md:mb-4 text-lg md:text-2xl">
+          <motion.h2
+            initial={{ opacity: 0, y: 48 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-160px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="text-primary font-playfair-display font-semibold mb-2 md:mb-4 text-lg md:text-2xl"
+          >
             FAQ’S
-          </h2>
-          <h1 className="text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6">
+          </motion.h2>
+          <motion.h1
+            initial={{ opacity: 0, y: 48 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-160px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6"
+          >
             Frequently Asked Questions
-          </h1>
-          <p className="text-sm md:text-lg lg:w-[35%]">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 48 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-160px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="text-sm md:text-lg lg:w-[35%]"
+          >
             Everything you need to know before staying at our private villa.
-          </p>
+          </motion.p>
         </div>
 
-        <div className="w-full md:max-w-5xl mx-auto ">
+        <motion.div
+          initial={{ opacity: 0, y: 48 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-160px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="w-full md:max-w-5xl mx-auto "
+        >
           {faqs.map((faq, index) => {
             const isActive = activeIndex === index;
 
@@ -113,7 +138,7 @@ export default function FaqSection() {
               </div>
             );
           })}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

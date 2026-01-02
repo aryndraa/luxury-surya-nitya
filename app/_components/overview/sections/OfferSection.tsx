@@ -22,7 +22,7 @@ export default function OfferSection() {
           <motion.h2
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-180px" }}
+            viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
             className="text-primary font-playfair-display font-semibold mb-2 md:mb-4 text-lg md:text-2xl"
           >
@@ -32,7 +32,7 @@ export default function OfferSection() {
             <motion.h1
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-180px" }}
+              viewport={{ once: true, margin: "-120px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
               className=" text-center text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6 lg:text-nowrap"
             >
@@ -54,7 +54,7 @@ export default function OfferSection() {
           <motion.div
             initial={{ opacity: 0, x: -48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-200px" }}
+            viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           >
             <OfferCard
@@ -67,7 +67,7 @@ export default function OfferSection() {
           <motion.div
             initial={{ opacity: 0, x: 48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-200px" }}
+            viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           >
             <OfferCard
@@ -80,7 +80,7 @@ export default function OfferSection() {
           <motion.div
             initial={{ opacity: 0, x: -48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-200px" }}
+            viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           >
             <OfferCard
@@ -93,7 +93,7 @@ export default function OfferSection() {
           <motion.div
             initial={{ opacity: 0, x: 48 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-200px" }}
+            viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           >
             <OfferCard
