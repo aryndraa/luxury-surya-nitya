@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${playfairDisplay.variable} ${montserrat.variable} antialiased font-monsterrat`}
       >
         <Header />
-        <main>{children}</main>
+        <main className="w-full overflow-hidden">{children}</main>
         <BookinhFloating />
         <Footer />
       </body>
