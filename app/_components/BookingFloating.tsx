@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 import { usePathname, useRouter } from "next/navigation";
 import { useBooking } from "@/lib/store/booking";
@@ -33,7 +32,7 @@ export default function BookingFloating() {
             duration: 0.8,
             ease: "easeOut",
           }}
-          className="fixed bottom-8 right-4 z-50"
+          className="fixed bottom-26 right-4 z-50"
         >
           <button
             onClick={handleClick}

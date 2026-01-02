@@ -3,7 +3,9 @@ import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/partials/Header";
 import Footer from "./_components/partials/Footer";
-import BookinhFloating from "./_components/BookinhFloating";
+import BookingFloating from "./_components/BookingFloating";
+import CTWAFloating from "./_components/CTWAFloating";
+import ScrollToTop from "./_components/ScrollToTop";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
@@ -31,8 +33,11 @@ export default function RootLayout({
         className={`${playfairDisplay.variable} ${montserrat.variable} antialiased font-monsterrat`}
       >
         <Header />
+        <ScrollToTop />
+
         <main className="w-full overflow-hidden">{children}</main>
-        <BookinhFloating />
+        <BookingFloating />
+        <CTWAFloating />
         <Footer />
       </body>
     </html>
