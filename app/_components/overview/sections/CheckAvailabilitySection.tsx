@@ -72,7 +72,7 @@ export default function CheckAvailabilitySection() {
           initial={{ opacity: 0, y: 48 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-120px" }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className="md:col-span-2 text-3xl md:text-5xl font-playfair-display text-text-light font-semibold mb-6 md:mb-12">
             Check Availability

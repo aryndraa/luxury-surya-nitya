@@ -14,7 +14,10 @@ export default function DescriptionSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="lg:col-span-4"
           >
             <h1 className="text-6xl md:text-8xl font-medium mb-4  ">
@@ -49,7 +52,10 @@ export default function DescriptionSection() {
             initial={{ opacity: 0, x: -48 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-120px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="lg:col-span-4"
           >
             <Image
@@ -69,7 +75,10 @@ export default function DescriptionSection() {
               initial={{ opacity: 0, x: 48 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-120px" }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
+              transition={{
+                duration: 0.8,
+                ease: "easeOut",
+              }}
               className="text-sm md:text-base"
             >
               Located in the Karangasem region, the area is known for its

@@ -64,7 +64,10 @@ export default function ServiceSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="row-span-2 "
           >
             <Image

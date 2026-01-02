@@ -14,7 +14,10 @@ export default function HeroSection() {
           <motion.h1
             initial={{ opacity: 0, y: 48 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="font-playfair-display text-6xl md:text-8xl mb-6"
           >
             East Bali Tranquility
@@ -22,7 +25,10 @@ export default function HeroSection() {
           <motion.p
             initial={{ opacity: 0, y: 48 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            transition={{
+              delay: 0.2,
+              ease: "easeOut",
+            }}
             className="font-light  md:font-normal  text-text-light/80 w-[80%] md:w-[70%] md:text-2xl italic"
           >
             A private luxury villa surrounded by nature, designed for complete
@@ -31,7 +37,10 @@ export default function HeroSection() {
           <motion.div
             initial={{ opacity: 0, y: 48 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            transition={{
+              delay: 0.2,
+              ease: "easeOut",
+            }}
             className="absolute bottom-20"
           >
             <FaChevronDown className="mx-auto  text-3xl text-text-light/50 animate-bounce" />

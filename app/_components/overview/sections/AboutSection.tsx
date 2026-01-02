@@ -20,7 +20,10 @@ export default function AboutSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
           >
             <Image src={AboutImage} alt="about-bg" className=" 2xl:w-[60vw]" />
           </motion.div>

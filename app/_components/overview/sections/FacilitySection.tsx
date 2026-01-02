@@ -22,7 +22,10 @@ export default function FacilitySection() {
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-180px" }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
+              transition={{
+                duration: 0.8,
+                ease: "easeOut",
+              }}
             >
               <Image
                 src={FacilityDecor}
@@ -35,7 +38,10 @@ export default function FacilitySection() {
                 initial={{ opacity: 0, y: 48 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-180px" }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                }}
                 className="font-playfair-display text-3xl md:text-5xl font-semibold mb-4 lg:mb-6"
               >
                 Facilities Designed for <br /> Absolute Comfort
@@ -44,7 +50,10 @@ export default function FacilitySection() {
                 initial={{ opacity: 0, y: 48 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-180px" }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                }}
                 className="text-sm md:text-lg mb-8 lg:mb-12 lg:w-[75%] "
               >
                 Every space is thoughtfully crafted to enhance privacy,
@@ -55,7 +64,10 @@ export default function FacilitySection() {
                 initial={{ opacity: 0, y: 48 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-180px" }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                }}
               >
                 <Button type="link" href="/facilities">
                   <span className="flex justify-center lg:w-fit">
@@ -98,7 +110,7 @@ export default function FacilitySection() {
         initial={{ opacity: 0, y: 48 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-200px" }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.8, ease: "easeOut", duration: 0.8 }}
         className="lg:hidden"
       >
         <Image

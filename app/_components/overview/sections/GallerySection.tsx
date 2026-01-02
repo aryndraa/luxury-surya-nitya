@@ -22,7 +22,10 @@ export default function GallerySection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="font-playfair-display text-3xl md:text-5xl font-semibold mb-4 lg:mb-6"
           >
             Moments at Luxury Surya Nitya
@@ -31,7 +34,10 @@ export default function GallerySection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-110px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="text-sm md:text-lg  lg:w-[65%] "
           >
             Explore the beauty and tranquility of Luxury Surya Nitya through
@@ -45,7 +51,10 @@ export default function GallerySection() {
             initial={{ opacity: 0, x: -48 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
           >
             <hr className="w-full" />
             <FaDiamond />
@@ -54,7 +63,10 @@ export default function GallerySection() {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="w-12 lg:w-18"
           >
             <Image
@@ -67,7 +79,10 @@ export default function GallerySection() {
             initial={{ opacity: 0, x: 48 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="w-full flex items-center text-primary "
           >
             <FaDiamond />
@@ -80,7 +95,10 @@ export default function GallerySection() {
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
         >
           <Image
             src={gallery1}
@@ -92,7 +110,10 @@ export default function GallerySection() {
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
         >
           <Image
             src={gallery2}
@@ -104,7 +125,10 @@ export default function GallerySection() {
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
         >
           <Image
             src={gallery3}
@@ -116,7 +140,10 @@ export default function GallerySection() {
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
         >
           <Image
             src={gallery4}
@@ -128,7 +155,10 @@ export default function GallerySection() {
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
         >
           <Image
             src={gallery5}
@@ -140,7 +170,10 @@ export default function GallerySection() {
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
         >
           <Image
             src={gallery6}

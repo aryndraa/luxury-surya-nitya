@@ -25,7 +25,10 @@ export default function SocialMediaSection() {
           initial={{ opacity: 0, y: 48 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-120px" }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
           className="text-3xl md:text-5xl font-playfair-display font-semibold mb-6  lg:mb-0 "
         >
           A Handful of Guests Have <br className="hidden lg:block" />{" "}
@@ -36,7 +39,10 @@ export default function SocialMediaSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="text-xl md:text-2xl lg:text-5xl font-playfair-display font-medium text-primary "
           >
             Follow Our Social Media :

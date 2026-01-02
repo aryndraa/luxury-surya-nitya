@@ -66,7 +66,10 @@ export default function FaqSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="text-primary font-playfair-display font-semibold mb-2 md:mb-4 text-lg md:text-2xl"
           >
             FAQ’S

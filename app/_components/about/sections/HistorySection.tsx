@@ -18,7 +18,10 @@ export default function HistorySection() {
                 initial={{ opacity: 0, y: 48 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-120px" }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                }}
                 className=" text-center text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6 lg:text-nowrap"
               >
                 The Origins of Surya Nitya
@@ -41,7 +44,10 @@ export default function HistorySection() {
             initial={{ opacity: 0, x: -48 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-120px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+            }}
             className="lg:col-span-4"
           >
             <Image
@@ -55,7 +61,10 @@ export default function HistorySection() {
               initial={{ opacity: 0, x: 48 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-160px" }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
+              transition={{
+                duration: 0.8,
+                ease: "easeOut",
+              }}
               className="text-sm md:text-base"
             >
               The development of Luxury Surya Nitya began in 2018, with a clear
