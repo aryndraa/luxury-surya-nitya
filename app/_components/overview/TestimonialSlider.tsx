@@ -10,7 +10,7 @@ import TestimonialCard from "./TestimonialCard";
 export default function TestimonialSlider() {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 48 }}
+      initial={{ opacity: 0, y: 64 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-200px" }}
       transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}

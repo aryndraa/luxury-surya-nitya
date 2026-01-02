@@ -19,7 +19,7 @@ export default function FacilitySection() {
         <div className="mb-8 lg:mb-0 col-span-6">
           <div className="flex flex-col items-center mb-8 lg:mb-20">
             <motion.div
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-180px" }}
               transition={{
@@ -35,7 +35,7 @@ export default function FacilitySection() {
             </motion.div>
             <div className="text-center flex flex-col lg:items-center">
               <motion.h1
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-180px" }}
                 transition={{
@@ -47,7 +47,7 @@ export default function FacilitySection() {
                 Facilities Designed for <br /> Absolute Comfort
               </motion.h1>
               <motion.p
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-180px" }}
                 transition={{
@@ -61,7 +61,7 @@ export default function FacilitySection() {
               </motion.p>
               <motion.div
                 className="grid"
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-180px" }}
                 transition={{
@@ -79,7 +79,7 @@ export default function FacilitySection() {
           </div>
           <div className="grid grid-cols-3 gap-2 md:gap-4">
             <motion.div
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -87,7 +87,7 @@ export default function FacilitySection() {
               <Image src={Facility1} alt="facility1" className="w-full" />
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -95,7 +95,7 @@ export default function FacilitySection() {
               <Image src={Facility2} alt="facility2" className="w-full" />
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
@@ -107,7 +107,7 @@ export default function FacilitySection() {
       </div>
 
       <motion.span
-        initial={{ opacity: 0, y: 48 }}
+        initial={{ opacity: 0, y: 64 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-200px" }}
         transition={{ duration: 0.8, ease: "easeOut" }}

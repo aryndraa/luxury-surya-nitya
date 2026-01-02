@@ -17,7 +17,7 @@ export default function OffersSection() {
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-24 lg:py-48  relative">
         <div className=" flex flex-col items-center gap-8 md:gap-12 lg:gap-24 ">
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -41,7 +41,7 @@ export default function OffersSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -66,7 +66,7 @@ export default function OffersSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{

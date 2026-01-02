@@ -17,7 +17,7 @@ export default function AboutSection() {
         <div className="relative z-1 h-full">
           <motion.div
             className="mb-4 lg:absolute "
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
             transition={{
@@ -28,7 +28,7 @@ export default function AboutSection() {
             <Image src={AboutImage} alt="about-bg" className=" 2xl:w-[60vw]" />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}

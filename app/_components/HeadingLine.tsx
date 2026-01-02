@@ -12,7 +12,7 @@ export default function HeadingLine({
     <div className="flex items-center gap-12 w-full justify-center  ">
       <motion.div
         className="w-full hidden lg:flex items-center text-primary "
-        initial={{ opacity: 0, x: -48 }}
+        initial={{ opacity: 0, x: -64 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, margin: "-180px" }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -23,7 +23,7 @@ export default function HeadingLine({
       {children}
       <motion.div
         className="w-full hidden lg:flex items-center text-primary "
-        initial={{ opacity: 0, x: 48 }}
+        initial={{ opacity: 0, x: 64 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, margin: "-180px" }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}

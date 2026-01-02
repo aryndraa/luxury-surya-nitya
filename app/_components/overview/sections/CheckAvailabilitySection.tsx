@@ -69,7 +69,7 @@ export default function CheckAvailabilitySection() {
         <motion.form
           onSubmit={handleSubmit}
           className="bg-text-dark shadow-lg p-6 md:p-8 w-full lg:w-[60%] "
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-120px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}

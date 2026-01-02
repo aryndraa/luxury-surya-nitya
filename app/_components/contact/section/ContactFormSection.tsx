@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import ContactFormImage from "@/public/assets/contact/contact-form.jpg";
+import { motion } from "framer-motion";
 
 type BookingForm = {
   name: string;
@@ -42,7 +43,16 @@ export default function ContactFormSection() {
   return (
     <section id="contact-form" className="bg-background">
       <div className="relative 2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 lg:gap-8 ">
-        <div className="lg:col-span-4 h-full  flex flex-col justify-between gap-4 ">
+        <motion.div
+          initial={{ opacity: 0, x: -64 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-120px" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
+          className="lg:col-span-4 h-full  flex flex-col justify-between gap-4 "
+        >
           <div>
             <h2 className="text-primary font-playfair-display font-semibold text-lg md:text-2xl mb-2 md:mb-5">
               Let&apos;s Talk
@@ -61,9 +71,16 @@ export default function ContactFormSection() {
             alt="image"
             className="w-full  h-32 object-cover "
           />
-        </div>
+        </motion.div>
         <div className="lg:col-span-1 hidden lg:block "></div>
-        <form
+        <motion.form
+          initial={{ opacity: 0, x: 64 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: "-120px" }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
           onSubmit={handleSubmit}
           className="bg-foreground  p-6 md:p-8 w-full lg:col-span-7 "
         >
@@ -117,7 +134,7 @@ export default function ContactFormSection() {
               Send Message
             </button>
           </div>
-        </form>
+        </motion.form>
       </div>
     </section>
   );

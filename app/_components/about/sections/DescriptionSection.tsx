@@ -11,7 +11,7 @@ export default function DescriptionSection() {
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-6  mb-8 lg:mb-16">
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -29,7 +29,7 @@ export default function DescriptionSection() {
             </p>
           </motion.div>
           <motion.p
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -49,7 +49,7 @@ export default function DescriptionSection() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-6">
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -72,7 +72,7 @@ export default function DescriptionSection() {
           <div className="hidden lg:block"></div>
           <div className="flex flex-col gap-4 md:gap-6 lg:col-span-7">
             <motion.p
-              initial={{ opacity: 0, x: 48 }}
+              initial={{ opacity: 0, x: 64 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-120px" }}
               transition={{
@@ -94,7 +94,7 @@ export default function DescriptionSection() {
               distinctive architectural beauty.
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: 48 }}
+              initial={{ opacity: 0, x: 64 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-120px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}

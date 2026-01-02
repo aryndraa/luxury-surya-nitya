@@ -19,7 +19,7 @@ export default function GallerySection() {
       <div className="flex flex-col items-center mb-12 lg:mb-18">
         <div className="mb-8 lg:mb-12 flex flex-col items-center text-center">
           <motion.h1
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -31,7 +31,7 @@ export default function GallerySection() {
             Moments at Luxury Surya Nitya
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-110px" }}
             transition={{
@@ -48,7 +48,7 @@ export default function GallerySection() {
         <div className="flex items-center justify-between gap-8 w-full md:w-[80%] lg:w-[50%]">
           <motion.div
             className="w-full flex items-center text-primary "
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{
@@ -76,7 +76,7 @@ export default function GallerySection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{

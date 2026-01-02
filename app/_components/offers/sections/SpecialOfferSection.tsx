@@ -15,7 +15,7 @@ export default function SpecialOfferSection() {
     >
       <div className="text-center flex flex-col items-center mb-6 md:mb-12 ">
         <motion.div
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-180px" }}
           transition={{
@@ -30,7 +30,7 @@ export default function SpecialOfferSection() {
           />
         </motion.div>
         <motion.h2
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{
@@ -43,7 +43,7 @@ export default function SpecialOfferSection() {
           Privacy, Luxury, and Serenity Await You
         </motion.h2>
         <motion.h1
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "20px" }}
           transition={{
@@ -57,7 +57,7 @@ export default function SpecialOfferSection() {
         </motion.h1>
       </div>
       <motion.div
-        initial={{ opacity: 0, y: 48 }}
+        initial={{ opacity: 0, y: 64 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{

@@ -22,7 +22,7 @@ export default function FacilitiesSection() {
       <div className="flex flex-col gap-6 md:gap-12">
         <HeadingLine>
           <motion.h1
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{
@@ -36,7 +36,7 @@ export default function FacilitiesSection() {
         </HeadingLine>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-3 lg:gap-5">
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -48,7 +48,7 @@ export default function FacilitiesSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -60,7 +60,7 @@ export default function FacilitiesSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -76,7 +76,7 @@ export default function FacilitiesSection() {
       <div className="flex flex-col gap-6 md:gap-12">
         <HeadingLine>
           <motion.h1
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{
@@ -90,7 +90,7 @@ export default function FacilitiesSection() {
         </HeadingLine>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-3 lg:gap-5">
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -102,7 +102,7 @@ export default function FacilitiesSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -114,7 +114,7 @@ export default function FacilitiesSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -130,7 +130,7 @@ export default function FacilitiesSection() {
       <div className="flex flex-col gap-6 md:gap-12">
         <HeadingLine>
           <motion.h1
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{
@@ -144,7 +144,7 @@ export default function FacilitiesSection() {
         </HeadingLine>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-3 lg:gap-5">
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -156,7 +156,7 @@ export default function FacilitiesSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -168,7 +168,7 @@ export default function FacilitiesSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}

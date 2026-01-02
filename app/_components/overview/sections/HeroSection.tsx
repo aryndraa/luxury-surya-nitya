@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="flex justify-center items-center 2xl:container mx-auto px-4 md:px-8 lg:px-12 ">
         <div className="text-center text-text-light flex flex-col items-center ">
           <motion.h1
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               duration: 0.8,
@@ -23,7 +23,7 @@ export default function HeroSection() {
             East Bali Tranquility
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               delay: 0.2,
@@ -36,7 +36,7 @@ export default function HeroSection() {
             serenit
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
               delay: 0.4,

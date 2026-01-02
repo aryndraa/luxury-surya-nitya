@@ -12,7 +12,7 @@ export default function DescriptionSection() {
     >
       <div className="lg:col-span-5">
         <motion.h1
-          initial={{ opacity: 0, x: -48 }}
+          initial={{ opacity: 0, x: -64 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{
@@ -24,7 +24,7 @@ export default function DescriptionSection() {
           Designed for Comfort and Tranquility
         </motion.h1>
         <motion.h2
-          initial={{ opacity: 0, x: -48 }}
+          initial={{ opacity: 0, x: -64 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -33,7 +33,7 @@ export default function DescriptionSection() {
           A seamless blend of elegance, openness, and natural surroundings
         </motion.h2>
         <motion.p
-          initial={{ opacity: 0, x: -48 }}
+          initial={{ opacity: 0, x: -64 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -49,7 +49,7 @@ export default function DescriptionSection() {
       </div>
       <div className="hidden lg:block"></div>
       <motion.div
-        initial={{ opacity: 0, x: 48 }}
+        initial={{ opacity: 0, x: 64 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{

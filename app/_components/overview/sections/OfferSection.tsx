@@ -20,7 +20,7 @@ export default function OfferSection() {
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 pt-24 lg:pt-40 pb-24 relative">
         <div className="flex flex-col items-center text-center mb-8 lg:mb-16">
           <motion.h2
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -30,7 +30,7 @@ export default function OfferSection() {
           </motion.h2>
           <HeadingLine>
             <motion.h1
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-120px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -40,7 +40,7 @@ export default function OfferSection() {
             </motion.h1>
           </HeadingLine>
           <motion.p
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -52,7 +52,7 @@ export default function OfferSection() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 md:gap-y-0 mb-8 lg:mb-16">
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -65,7 +65,7 @@ export default function OfferSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -78,7 +78,7 @@ export default function OfferSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -91,7 +91,7 @@ export default function OfferSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 48 }}
+            initial={{ opacity: 0, x: 64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -105,7 +105,7 @@ export default function OfferSection() {
         </div>
         <motion.div
           className="flex justify-center"
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{

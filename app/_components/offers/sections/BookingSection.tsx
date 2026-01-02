@@ -45,7 +45,7 @@ export default function BookingSection() {
           <HeadingLine>
             <div className="flex flex-col items-center text-center">
               <motion.h1
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-120px" }}
                 transition={{
@@ -57,7 +57,7 @@ export default function BookingSection() {
                 Book Your Private Escape
               </motion.h1>
               <motion.p
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-120px" }}
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -71,7 +71,7 @@ export default function BookingSection() {
         </div>
 
         <motion.form
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-120px" }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}

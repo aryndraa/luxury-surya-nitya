@@ -18,7 +18,7 @@ export default function EssentialSection() {
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24 flex flex-col gap-6 md:gap-8 lg:gap-12">
         <HeadingLine>
           <motion.h1
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
             transition={{

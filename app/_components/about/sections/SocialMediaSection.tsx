@@ -22,7 +22,7 @@ export default function SocialMediaSection() {
     >
       <div className="mb-8 md:mb-14 flex flex-col lg:flex-row justify-between">
         <motion.h1
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-120px" }}
           transition={{
@@ -36,7 +36,7 @@ export default function SocialMediaSection() {
         </motion.h1>
         <div className="flex flex-col gap-2 lg:justify-between">
           <motion.h2
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -49,7 +49,7 @@ export default function SocialMediaSection() {
           </motion.h2>
           <div className="flex gap-2">
             <motion.span
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -59,7 +59,7 @@ export default function SocialMediaSection() {
               </Link>
             </motion.span>
             <motion.span
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-120px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -69,7 +69,7 @@ export default function SocialMediaSection() {
               </Link>
             </motion.span>
             <motion.span
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-120px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
@@ -82,7 +82,7 @@ export default function SocialMediaSection() {
         </div>
       </div>
       <motion.div
-        initial={{ opacity: 0, y: 48 }}
+        initial={{ opacity: 0, y: 64 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}

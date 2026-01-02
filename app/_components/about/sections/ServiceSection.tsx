@@ -16,7 +16,7 @@ export default function ServiceSection() {
       <div className="2xl:container mx-auto px-4 md:px-8 lg:px-12 py-12 md:py-18 lg:py-24">
         <div className="flex flex-col items-center text-center mb-8 lg:mb-16">
           <motion.h2
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -26,7 +26,7 @@ export default function ServiceSection() {
           </motion.h2>
           <HeadingLine>
             <motion.h1
-              initial={{ opacity: 0, y: 48 }}
+              initial={{ opacity: 0, y: 64 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-120px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -36,7 +36,7 @@ export default function ServiceSection() {
             </motion.h1>
           </HeadingLine>
           <motion.p
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -48,7 +48,7 @@ export default function ServiceSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-4">
           <motion.div
-            initial={{ opacity: 0, x: -48, y: -48 }}
+            initial={{ opacity: 0, x: -64, y: -64 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -61,7 +61,7 @@ export default function ServiceSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 48 }}
+            initial={{ opacity: 0, y: 64 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
             transition={{
@@ -77,7 +77,7 @@ export default function ServiceSection() {
             />
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 48, y: -48 }}
+            initial={{ opacity: 0, x: 64, y: -64 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -91,7 +91,7 @@ export default function ServiceSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: -48, y: 48 }}
+            initial={{ opacity: 0, x: -64, y: 64 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -105,7 +105,7 @@ export default function ServiceSection() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 48, y: 48 }}
+            initial={{ opacity: 0, x: 64, y: 64 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             viewport={{ once: true, margin: "-180px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}

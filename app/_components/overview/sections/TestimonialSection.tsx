@@ -10,7 +10,7 @@ export default function TestimonialSection() {
     >
       <div className="flex flex-col items-center text-center mb-8 lg:mb-16  ">
         <motion.h2
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-160px" }}
           transition={{
@@ -22,7 +22,7 @@ export default function TestimonialSection() {
           Real Testimonial
         </motion.h2>
         <motion.h1
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-160px" }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -31,7 +31,7 @@ export default function TestimonialSection() {
           Reviews From Our Guests
         </motion.h1>
         <motion.p
-          initial={{ opacity: 0, y: 48 }}
+          initial={{ opacity: 0, y: 64 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-160px" }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}

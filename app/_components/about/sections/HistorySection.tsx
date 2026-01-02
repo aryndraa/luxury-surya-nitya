@@ -15,7 +15,7 @@ export default function HistorySection() {
           <HeadingLine>
             <div className="flex flex-col items-center ">
               <motion.h1
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-120px" }}
                 transition={{
@@ -27,7 +27,7 @@ export default function HistorySection() {
                 The Origins of Surya Nitya
               </motion.h1>
               <motion.p
-                initial={{ opacity: 0, y: 48 }}
+                initial={{ opacity: 0, y: 64 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-120px" }}
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -41,7 +41,7 @@ export default function HistorySection() {
         </div>
         <div className="gap-4 md:gap-6 grid lg:grid-cols-12 lg:gap-16">
           <motion.div
-            initial={{ opacity: 0, x: -48 }}
+            initial={{ opacity: 0, x: -64 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-120px" }}
             transition={{
@@ -58,7 +58,7 @@ export default function HistorySection() {
           </motion.div>
           <div className="flex flex-col gap-4 md:gap-6 lg:col-span-6">
             <motion.p
-              initial={{ opacity: 0, x: 48 }}
+              initial={{ opacity: 0, x: 64 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-160px" }}
               transition={{
@@ -75,7 +75,7 @@ export default function HistorySection() {
               nature, and the divine — as the foundation of the design.
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: 48 }}
+              initial={{ opacity: 0, x: 64 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-160px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -89,7 +89,7 @@ export default function HistorySection() {
               and cultural depth to the interiors.
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: 48 }}
+              initial={{ opacity: 0, x: 64 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-160px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
