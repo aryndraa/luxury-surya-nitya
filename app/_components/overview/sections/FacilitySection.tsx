@@ -69,7 +69,7 @@ export default function FacilitySection() {
             <motion.div
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-120px" }}
+              viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
               <Image src={Facility1} alt="facility1" className="w-full" />
@@ -77,7 +77,7 @@ export default function FacilitySection() {
             <motion.div
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-120px" }}
+              viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
             >
               <Image src={Facility2} alt="facility2" className="w-full" />
@@ -85,7 +85,7 @@ export default function FacilitySection() {
             <motion.div
               initial={{ opacity: 0, y: 48 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-120px" }}
+              viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
             >
               <Image src={Facility3} alt="facility3" className="w-full" />

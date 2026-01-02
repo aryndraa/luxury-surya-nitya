@@ -31,7 +31,7 @@ export default function TestimonialSection() {
           initial={{ opacity: 0, y: 48 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-160px" }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           className="text-sm md:text-lg lg:w-[35%] "
         >
           Real stories from guests who experienced privacy, comfort, and

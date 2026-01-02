@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "./_components/partials/Header";
 import Footer from "./_components/partials/Footer";
 import BookinhFloating from "./_components/BookinhFloating";
-import LocomotiveProvider from "./_components/LocomotiveProvider";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",

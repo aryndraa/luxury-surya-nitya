@@ -75,7 +75,7 @@ export default function FaqSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="text-3xl md:text-5xl font-playfair-display font-semibold mb-4 lg:mb-6"
           >
             Frequently Asked Questions
@@ -84,7 +84,7 @@ export default function FaqSection() {
             initial={{ opacity: 0, y: 48 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-160px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
             className="text-sm md:text-lg lg:w-[35%]"
           >
             Everything you need to know before staying at our private villa.
@@ -94,8 +94,8 @@ export default function FaqSection() {
         <motion.div
           initial={{ opacity: 0, y: 48 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-160px" }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true, margin: "-200px" }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           className="w-full md:max-w-5xl mx-auto "
         >
           {faqs.map((faq, index) => {
