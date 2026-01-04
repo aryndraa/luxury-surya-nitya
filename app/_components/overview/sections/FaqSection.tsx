@@ -14,27 +14,27 @@ export default function FaqSection() {
     {
       question: "Q: Is the villa rented exclusively?",
       answer:
-        "Yes. The villa is rented as a full private villa, meaning you will not share any facilities with other guests during your stay.",
+        "A: Yes. The villa is rented as a fully private villa, so you will not share any facilities with other guests during your stay.",
     },
     {
-      question: "Q: Is the villa rented exclusively?",
+      question: "Q: How many guests can stay in the villa?",
       answer:
-        "Yes. The villa is rented as a full private villa, meaning you will not share any facilities with other guests during your stay.",
+        "A: The villa can comfortably accommodate up to 6 guests. Additional guests may be allowed upon request with extra charges.",
     },
     {
-      question: "Q: Is the villa rented exclusively?",
+      question: "Q: Does the villa have a private pool?",
       answer:
-        "Yes. The villa is rented as a full private villa, meaning you will not share any facilities with other guests during your stay.",
+        "A: Yes. The villa features a private swimming pool exclusively for your use, ensuring complete privacy and comfort.",
     },
     {
-      question: "Q: Is the villa rented exclusively?",
+      question: "Q: Is daily housekeeping included?",
       answer:
-        "Yes. The villa is rented as a full private villa, meaning you will not share any facilities with other guests during your stay.",
+        "A: Yes. Daily housekeeping service is included to keep the villa clean and comfortable throughout your stay.",
     },
     {
-      question: "Q: Is the villa rented exclusively?",
+      question: "Q: Is the villa suitable for families or honeymooners?",
       answer:
-        "Yes. The villa is rented as a full private villa, meaning you will not share any facilities with other guests during your stay.",
+        "A: Absolutely. The villa is designed to be ideal for families, couples, and honeymooners seeking a peaceful and private getaway.",
     },
   ];
 
